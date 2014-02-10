@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <comment-short comment="false" x="26" y="40">
+                    <int id="0" val="Move Left"/>
+                </comment-short>
+                <if comment="false" x="26" y="60">
+                    <group eventID="1" id="-1">
+                        <setangle comment="false" x="37" y="93">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="180"/>
+                        </setangle>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="1"/>
+                    </keystate>
+                </if>
+                <comment-short comment="false" x="26" y="132">
+                    <int id="0" val="Move Right"/>
+                </comment-short>
+                <if comment="false" x="26" y="152">
+                    <group eventID="1" id="-1">
+                        <setangle comment="false" x="37" y="185">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </setangle>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="2"/>
+                    </keystate>
+                </if>
+                <comment-short comment="false" x="26" y="224">
+                    <int id="0" val="Move Up"/>
+                </comment-short>
+                <if comment="false" x="26" y="244">
+                    <group eventID="1" id="-1">
+                        <setangle comment="false" x="37" y="277">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="270"/>
+                        </setangle>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="3"/>
+                    </keystate>
+                </if>
+                <comment-short comment="false" x="26" y="316">
+                    <int id="0" val="Move Down"/>
+                </comment-short>
+                <if comment="false" x="26" y="336">
+                    <group eventID="1" id="-1">
+                        <setangle comment="false" x="37" y="369">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="90"/>
+                        </setangle>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <CONTROL eid="var" id="1" vid="4"/>
+                    </keystate>
+                </if>
+                <comment-short comment="false" x="26" y="408">
+                    <int id="0" val="Move Move Move"/>
+                </comment-short>
+                <setvel comment="false" x="26" y="428">
+                    <ACTOR eid="this" id="0"/>
+                    <getdir comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getdir>
+                    <get-val-1-5 comment="false" id="2" x="0" y="0"/>
+                </setvel>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <setangle comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="180"/>
+                </setangle>
+                <setvel comment="false" x="26" y="67">
+                    <ACTOR eid="this" id="0"/>
+                    <getdir comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getdir>
+                    <get-val-1-5 comment="false" id="2" x="0" y="0"/>
+                </setvel>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

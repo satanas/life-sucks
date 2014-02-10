@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="0" language="" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_1_1_Movement" desc="" description="" design="true" drawOrder="0" id="1" language="" name="Movement" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <control default="" desc="" dropdown="" fullname="Move Left Key" hidden="false" id="1" name="_MoveLeftKey" order="1"/>
+        <control default="" desc="" dropdown="" fullname="Move Right Key" hidden="false" id="2" name="_MoveRightKey" order="2"/>
+        <control default="" desc="" dropdown="" fullname="Move Up Key" hidden="false" id="3" name="_MoveUpKey" order="3"/>
+        <control default="" desc="" dropdown="" fullname="Move Down Key" hidden="false" id="4" name="_MoveDownKey" order="4"/>
+        <number default="0" desc="" dropdown="" fullname="Day Speed" hidden="false" id="5" name="_DaySpeed" order="5"/>
+        <number default="0" desc="" dropdown="" fullname="Night Speed" hidden="false" id="6" name="_NightSpeed" order="6"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="2" language="" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>
