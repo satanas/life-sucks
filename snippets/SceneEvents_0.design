@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-grouptogroup comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <die comment="false" x="26" y="47">
+                    <second-actor comment="false" id="0" x="0" y="0"/>
+                </die>
+                <incdec comment="false" x="26" y="79">
+                    <int id="0" val="1"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="10"/>
+                </incdec>
+            </group>
+            <GROUP eid="0" id="0"/>
+            <GROUP eid="4" id="1"/>
+        </event-collide-grouptogroup>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-2-1 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-val-2-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <FONT eid="4" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-val-2-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="3"/>
+                    <int id="2" val="3"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1"/>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <die comment="false" x="26" y="47">
+                    <collide-member-of-group comment="false" id="0" x="0" y="0"/>
+                </die>
+                <incdec comment="false" x="26" y="79">
+                    <int id="0" val="1"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="10"/>
+                </incdec>
+            </group>
+            <ACTOR eid="1" id="0"/>
+            <GROUP eid="4" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

@@ -10,7 +10,33 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="0" name="Player 1" sx="1.0" sy="1.0" x="381" y="320" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Player 1" sx="1.0" sy="1.0" x="384" y="320" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="4" id="2" name="Coin 2" sx="1.0" sy="1.0" x="321" y="321" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="2" name="Coin 3" sx="1.0" sy="1.0" x="289" y="320" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="4" id="2" name="Coin 4" sx="1.0" sy="1.0" x="256" y="320" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="2" name="Coin 5" sx="1.0" sy="1.0" x="224" y="320" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="2" name="Coin 6" sx="1.0" sy="1.0" x="192" y="320" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="2" name="Coin 7" sx="1.0" sy="1.0" x="160" y="320" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="4" id="2" name="Coin 8" sx="1.0" sy="1.0" x="128" y="320" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="4" id="2" name="Coin 9" sx="1.0" sy="1.0" x="128" y="288" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="2" name="Coin 10" sx="1.0" sy="1.0" x="128" y="256" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="4" id="2" name="Coin 11" sx="1.0" sy="1.0" x="128" y="224" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="4" id="2" name="Coin 12" sx="1.0" sy="1.0" x="128" y="192" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="4" id="2" name="Coin 13" sx="1.0" sy="1.0" x="128" y="160" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="4" id="2" name="Coin 14" sx="1.0" sy="1.0" x="128" y="128" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="4" id="2" name="Coin 15" sx="1.0" sy="1.0" x="128" y="96" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="4" id="2" name="Coin 17" sx="1.0" sy="1.0" x="128" y="32" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="2" name="Coin 16" sx="1.0" sy="1.0" x="128" y="64" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="4" id="2" name="Coin 19" sx="1.0" sy="1.0" x="192" y="32" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="2" name="Coin 18" sx="1.0" sy="1.0" x="160" y="32" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="4" id="2" name="Coin 21" sx="1.0" sy="1.0" x="256" y="32" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="2" name="Coin 20" sx="1.0" sy="1.0" x="224" y="32" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="4" id="2" name="Coin 23" sx="1.0" sy="1.0" x="320" y="32" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="4" id="2" name="Coin 22" sx="1.0" sy="1.0" x="288" y="32" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="4" id="2" name="Coin 25" sx="1.0" sy="1.0" x="384" y="32" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="4" id="2" name="Coin 24" sx="1.0" sy="1.0" x="352" y="32" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="4" id="2" name="Coin 27" sx="1.0" sy="1.0" x="448" y="32" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="4" id="2" name="Coin 26" sx="1.0" sy="1.0" x="416" y="32" z="0"/>
     </actors>
     <snippets/>
     <terrain/>
