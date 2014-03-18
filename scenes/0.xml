@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scene depth="1" desc="" eventsnippetid="2" extheight="672" extwidth="864" extx="-32" exty="-32" format="2.1" gravx="-0.0" gravy="0.0" height="608" id="0" name="Level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="800">
     <layers>
-        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+        <layer color="100,168,234" id="0" name="Layer 0" order="1"/>
     </layers>
     <color-bg blue="255" green="255" red="255"/>
     <backgrounds/>
@@ -37,7 +37,38 @@
         <actor a="0.0" aid="24" c="false" group="4" id="2" name="Coin 24" sx="1.0" sy="1.0" x="352" y="32" z="0"/>
         <actor a="0.0" aid="27" c="false" group="4" id="2" name="Coin 27" sx="1.0" sy="1.0" x="448" y="32" z="0"/>
         <actor a="0.0" aid="26" c="false" group="4" id="2" name="Coin 26" sx="1.0" sy="1.0" x="416" y="32" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="4" id="2" name="Coin 29" sx="1.0" sy="1.0" x="512" y="32" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="4" id="2" name="Coin 28" sx="1.0" sy="1.0" x="480" y="32" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="4" id="2" name="Coin 31" sx="1.0" sy="1.0" x="576" y="32" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="4" id="2" name="Coin 30" sx="1.0" sy="1.0" x="544" y="32" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="4" id="2" name="Coin 34" sx="1.0" sy="1.0" x="640" y="32" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="4" id="2" name="Coin 35" sx="1.0" sy="1.0" x="640" y="64" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="4" id="2" name="Coin 32" sx="1.0" sy="1.0" x="608" y="32" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="4" id="2" name="Coin 33" sx="1.0" sy="1.0" x="640" y="32" z="0"/>
+        <actor a="0.0" aid="38" c="false" group="4" id="2" name="Coin 38" sx="1.0" sy="1.0" x="640" y="160" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="4" id="2" name="Coin 39" sx="1.0" sy="1.0" x="640" y="192" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="4" id="2" name="Coin 36" sx="1.0" sy="1.0" x="640" y="96" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="4" id="2" name="Coin 37" sx="1.0" sy="1.0" x="640" y="128" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="4" id="2" name="Coin 42" sx="1.0" sy="1.0" x="640" y="288" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="4" id="2" name="Coin 43" sx="1.0" sy="1.0" x="640" y="320" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="4" id="2" name="Coin 40" sx="1.0" sy="1.0" x="640" y="224" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="4" id="2" name="Coin 41" sx="1.0" sy="1.0" x="640" y="256" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="4" id="2" name="Coin 46" sx="1.0" sy="1.0" x="544" y="320" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="4" id="2" name="Coin 47" sx="1.0" sy="1.0" x="512" y="320" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="4" id="2" name="Coin 44" sx="1.0" sy="1.0" x="608" y="320" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="4" id="2" name="Coin 45" sx="1.0" sy="1.0" x="576" y="320" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="4" id="2" name="Coin 51" sx="1.0" sy="1.0" x="352" y="320" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="4" id="2" name="Coin 50" sx="1.0" sy="1.0" x="416" y="320" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="4" id="2" name="Coin 49" sx="1.0" sy="1.0" x="448" y="320" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="4" id="2" name="Coin 48" sx="1.0" sy="1.0" x="480" y="320" z="0"/>
     </actors>
-    <snippets/>
-    <terrain/>
+    <snippets>
+        <s enabled="true" id="6"/>
+    </snippets>
+    <terrain>
+        <p pts="4,544.0,320.0,544.0,0.0,0.0,0.0,0.0,320.0" x="128.0" y="32.0"/>
+        <p pts="4,416.0,192.0,416.0,0.0,0.0,0.0,0.0,192.0" x="192.0" y="96.0"/>
+        <p pts="4,480.0,0.0,480.0,256.0,0.0,256.0,0.0,0.0" x="160.0" y="64.0"/>
+        <p pts="4,0.0,384.0,0.0,0.0,608.0,0.0,608.0,384.0" x="96.0" y="0.0"/>
+    </terrain>
 </scene>

@@ -8,7 +8,14 @@
                 </comment-short>
                 <if comment="false" x="26" y="60">
                     <group eventID="1" id="-1">
-                        <setangle comment="false" x="37" y="93">
+                        <set-dxy comment="true" x="37" y="93">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <neg comment="true" id="2" x="0" y="0">
+                                <get-val-1-5 comment="true" id="0" x="0" y="0"/>
+                            </neg>
+                        </set-dxy>
+                        <setangle comment="false" x="37" y="130">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="180"/>
                         </setangle>
@@ -18,12 +25,17 @@
                         <CONTROL eid="var" id="1" vid="1"/>
                     </keystate>
                 </if>
-                <comment-short comment="false" x="26" y="132">
+                <comment-short comment="false" x="26" y="169">
                     <int id="0" val="Move Right"/>
                 </comment-short>
-                <if comment="false" x="26" y="152">
+                <if comment="false" x="26" y="189">
                     <group eventID="1" id="-1">
-                        <setangle comment="false" x="37" y="185">
+                        <set-dxy comment="true" x="37" y="222">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-1-5 comment="true" id="2" x="0" y="0"/>
+                        </set-dxy>
+                        <setangle comment="false" x="37" y="254">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                         </setangle>
@@ -33,12 +45,19 @@
                         <CONTROL eid="var" id="1" vid="2"/>
                     </keystate>
                 </if>
-                <comment-short comment="false" x="26" y="224">
+                <comment-short comment="false" x="26" y="293">
                     <int id="0" val="Move Up"/>
                 </comment-short>
-                <if comment="false" x="26" y="244">
+                <if comment="false" x="26" y="313">
                     <group eventID="1" id="-1">
-                        <setangle comment="false" x="37" y="277">
+                        <set-dxy comment="true" x="37" y="346">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <neg comment="true" id="2" x="0" y="0">
+                                <get-val-1-5 comment="true" id="0" x="0" y="0"/>
+                            </neg>
+                        </set-dxy>
+                        <setangle comment="false" x="37" y="383">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="270"/>
                         </setangle>
@@ -48,12 +67,17 @@
                         <CONTROL eid="var" id="1" vid="3"/>
                     </keystate>
                 </if>
-                <comment-short comment="false" x="26" y="316">
+                <comment-short comment="false" x="26" y="422">
                     <int id="0" val="Move Down"/>
                 </comment-short>
-                <if comment="false" x="26" y="336">
+                <if comment="false" x="26" y="442">
                     <group eventID="1" id="-1">
-                        <setangle comment="false" x="37" y="369">
+                        <set-dxy comment="true" x="37" y="475">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-1-5 comment="true" id="2" x="0" y="0"/>
+                        </set-dxy>
+                        <setangle comment="false" x="37" y="507">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="90"/>
                         </setangle>
@@ -63,10 +87,10 @@
                         <CONTROL eid="var" id="1" vid="4"/>
                     </keystate>
                 </if>
-                <comment-short comment="false" x="26" y="408">
+                <comment-short comment="false" x="26" y="546">
                     <int id="0" val="Move Move Move"/>
                 </comment-short>
-                <setvel comment="false" x="26" y="428">
+                <setvel comment="false" x="26" y="566">
                     <ACTOR eid="this" id="0"/>
                     <getdir comment="false" id="1" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
@@ -95,4 +119,31 @@
         </init>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <print comment="false" x="26" y="47">
+                    <int id="0" val="Collision debug"/>
+                </print>
+                <if comment="false" x="26" y="67">
+                    <group eventID="3" id="-1">
+                        <setvel comment="false" x="37" y="100">
+                            <ACTOR eid="this" id="0"/>
+                            <getdir comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                            </getdir>
+                            <int id="2" val="0"/>
+                        </setvel>
+                    </group>
+                    <collision-top comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </collision-top>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <GROUP eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>
